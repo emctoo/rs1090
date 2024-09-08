@@ -45,6 +45,7 @@ tower-http = { version = "0.5", features = ["fs", "trace"] }
 uuid = { version = "1.8.0", features = ["v4"] }
 serde_tuple = "0.5.0"
 evalexpr = { version = "11.3", features = ["serde"] }
+redis = { version = "0.26.1", features = ["tokio-comp"] }
 
 [[bin]]
 name = "jet1090"
